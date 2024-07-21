@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: sans-serif;
     background-color: rgb(17, 16, 16);
     color: white;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,58 +19,66 @@ nav{
     top: 0;
     width: 100%;
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: white;
     font-size: 19px;
     margin-inline: 22px;
 }
 
-ul li a:hover{
+ul li a:hover {
     color: rgb(0, 140, 255);
     border-bottom: 2px solid rgb(0, 140, 255);
 }
-#bar{
+
+#bar {
     display: none;
 }
-.logo{
+
+.logo {
     font-size: 22px;
 }
-.logo span{
+
+.logo span {
     color: rgb(9, 153, 255);
 
 }
-.main{
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 105px;
 }
 
-.maintext h1{
+.maintext h1 {
     font-size: 70px;
 }
-.maintext h1 span{
+
+.maintext h1 span {
     color: rgb(0, 153, 255);
 
 }
-.maintext h3{
+
+.maintext h3 {
     font-size: 28px;
 }
-.maintext p{
+
+.maintext p {
     font-size: 30px;
 }
 
-.maintext button{
+.maintext button {
     width: 140px;
     height: 40px;
     background-color: blue;
@@ -78,26 +87,27 @@ ul li a:hover{
     margin-top: 24px;
     color: white;
 }
-button:hover{
+
+button:hover {
     border: 2px solid rgb(0, 149, 255);
     background-color: transparent;
     cursor: pointer;
 
 }
 
-.head{
+.head {
     text-align: center;
     padding: 80px;
-   
+
 }
 
-.head span{
+.head span {
     color: rgb(0, 140, 255);
 
 }
 
- 
-.about{
+
+.about {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -106,102 +116,113 @@ button:hover{
     padding: 22px;
 
 }
-.about img{
+
+.about img {
     width: 250px;
-    border-radius:50%;
+    border-radius: 50%;
     border: 4px solid rgb(0, 136, 255);
     margin-inline: 55px;
 }
 
-.abouttext p{
+.abouttext p {
     margin-top: 35px;
 }
 
-.abouttext h2 span{
-    color:rgb(0, 136, 255);
+.abouttext h2 span {
+    color: rgb(0, 136, 255);
 }
-.abouttext p span{
+
+.abouttext p span {
     color: rgb(218, 218, 218);
 }
-.abouttext h2{
+
+.abouttext h2 {
     font-size: 30px;
 }
 
-.services{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
-.cards{
+
+.cards {
     width: 250px;
     padding: 22px;
     background-color: rgb(23, 22, 22);
     margin-inline: 20px;
     border-radius: 5px;
+    margin-top: 22px;
 }
-.cards p{
+
+.cards p {
     margin-top: 11px;
 }
-.cards i{
+
+.cards i {
     font-size: 22px;
 }
 
-.mywork{
+.mywork {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.workCard{
+.workCard {
     width: 300px;
     height: 310px;
     background-color: #1c1b1b;
     border-radius: 5px;
     margin-inline: 20px;
     padding: 11px;
-  
+    margin-top: 22px;
+
 
 }
-.workCard img{
-width: 100%;
-height: 100%;
+
+.workCard img {
+    width: 100%;
+    height: 100%;
 }
 
-.workCard P{
+.workCard P {
     margin-top: 11px;
 
 }
-.workCard a{
+
+.workCard a {
     text-decoration: none;
     position: absolute;
     margin-top: 20px;
     padding: 6px 12px;
-    background-color: rgb(0, 128 ,255);
+    background-color: rgb(0, 128, 255);
     color: white;
 }
 
-.contact{
+.contact {
     width: 300px;
     padding: 20px;
     background-color: #252525;
     margin: auto;
 }
-.contact input{
+
+.contact input {
     width: 90%;
     padding: 5px;
     font-size: 17px;
-border: 1px solid white;
-background-color: transparent;
-color: white;
-margin-top: 3px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 3px;
 }
 
-.contact p{
+.contact p {
     margin-top: 20px;
 }
 
-.contact button{
+.contact button {
     width: 90px;
     height: 28px;
     background-color: rgb(0, 145, 255);
@@ -211,33 +232,54 @@ margin-top: 3px;
     margin-top: 22px;
 }
 
-.footer{
+.footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 55px;
     margin-top: 66px;
     background-color: rgb(52, 51, 51);
 }
-.text p{
+
+.text {
+    margin-top: 20px;
+}
+
+.text p {
     margin-top: 12px;
 }
 
 
 
 @media screen and (max-width:1000px) {
-    .main{
+    .main {
         display: block;
         text-align: center;
         margin-top: 155px;
     }
-    
+
 }
 
-@media screen and (max-width:1000px) {
-    ul{
+@media screen and (max-width:800px) {
+    ul {
         display: none;
+    }
 
-    }#bar{
+    .showdata {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 23px;
+        background-color: rgb(60, 59, 59);
+        gap: 20px;
+        border-radius: 5px;
+        position: fixed;
+        top: 75px;
+        right: 3%;
+
+    }
+
+    #bar {
         display: block;
         font-size: 25px;
         cursor: pointer;
@@ -245,19 +287,25 @@ margin-top: 3px;
 }
 
 @media screen and (max-width:550) {
-    
-    .maintext h1{
+
+    .maintext h1 {
         font-size: 36px;
 
     }
-    .maintext h3{
+
+    .maintext h3 {
         font-size: 21px;
     }
-    
-    .maintext p{
+
+    .maintext p {
         font-size: 20px;
     }
-    .main img{
+
+    .main img {
         width: 90%;
+    }
+
+    .contact {
+        width: 80%;
     }
 }

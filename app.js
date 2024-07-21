@@ -16,3 +16,15 @@ else{
     alert("Logged In")
 }
 })
+
+let ul=document.querySelector("ul")
+
+let barr=document.getElementById("bar");
+barr.addEventListener("click" ,function(){
+    ul.classList.toggle("showdata");
+    if(ul.className == "showdata"){
+        barr.className="fa-solid fa-xmark"
+    }else{
+        barr.className="fa-solid fa-bars"
+    }
+})
